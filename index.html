@@ -15,7 +15,7 @@
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
 
-<script>
+<!--<script>
   // Your web app's Firebase configuration
   var firebaseConfig = {
     apiKey: "AIzaSyDWruNu2MpLPCU6tzxcRm79hKqT5IVBzB8",
@@ -28,6 +28,28 @@
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
+</script>-->
+    
+    
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyAmo9ukCCfFvkllEi9fpYXnZcK_XqvxL94",
+    authDomain: "amit-d5b0e.firebaseapp.com",
+    databaseURL: "https://amit-d5b0e-default-rtdb.firebaseio.com",
+    projectId: "amit-d5b0e",
+    storageBucket: "amit-d5b0e.appspot.com",
+    messagingSenderId: "854385449409",
+    appId: "1:854385449409:web:c5c7c2f3903f0074c2b740"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
 </script>
 
 <!--database code ends here-->    
